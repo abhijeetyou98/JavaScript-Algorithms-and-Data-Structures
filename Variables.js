@@ -16,3 +16,17 @@ var b;
 b = 7;
 //a should be assigned to b with =.
  b =  a;
+//5
+// Only change code below this line
+var a;
+var b;
+var c;
+a=5;
+b=10;
+c="I am a";
+// Only change code above this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+//
