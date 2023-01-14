@@ -72,7 +72,3 @@ const myAdverb = "quickly";
 const wordBlanks = "The "+ myAdjective +" "+ myNoun +" "+ myVerb +" "+ myAdverb+"."; // Change this line
 // Only change code above this line
 
-//Store Multiple Values in one Variable using JavaScript Arrays
-
-
-
