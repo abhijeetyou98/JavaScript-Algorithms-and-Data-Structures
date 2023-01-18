@@ -161,7 +161,17 @@ function testStrict(val) {
 
 testStrict(10);
 
-//
+//Practice comparing different values
+
+// Setup
+function compareEquality(a, b) {
+  if (10 === "10") { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
 
 
 
