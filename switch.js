@@ -1,0 +1,33 @@
+// Switch
+//Selecting from Many Options with Switch Statements
+
+function caseInSwitch(val) {
+    let answer = "";
+    // Only change code below this line
+  switch (val){
+    case 1:
+    answer ="alpha";
+    break
+  }switch (val){
+    case 2:
+    answer ="beta";
+    break
+  }switch (val){
+    case 3:
+    answer ="gamma";
+    break
+  }
+  switch (val){
+    case 4:
+    answer ="delta";
+    break
+  }
+  
+  
+    // Only change code above this line
+    return answer;
+  }
+  
+  caseInSwitch(1);
+
+  //
