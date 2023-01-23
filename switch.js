@@ -180,16 +180,3 @@ function cc(card) {
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
-//Build JavaScript Objects
-const myDog = {
-  // Only change code below this line
-"name":"Muku",
-"legs":4,
-"tails":1,
-"friends":["Seeru", "Muka"]
-
-
-  // Only change code above this line
-};
-
-
