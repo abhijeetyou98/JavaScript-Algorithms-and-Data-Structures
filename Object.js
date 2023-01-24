@@ -97,7 +97,8 @@ const myDog = {
     // Only change code above this line
     return result;
   }
-  //
+  //Testing Objects for Properties
+
 
 
   
