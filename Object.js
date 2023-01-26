@@ -111,7 +111,7 @@ console.log(myArray);
 
 //Count Backwards With a For Loop
 // Setup
-const myArray = [];
+const myArray2 = [];
 
 // Only change code below this line
 for (let i = 9; i > 0; i -=2){
@@ -119,7 +119,8 @@ for (let i = 9; i > 0; i -=2){
 }
 console.log(myArray);
 
-//
+//Iterate Through an Array with a For Loop
+
 
 
   
