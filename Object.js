@@ -225,7 +225,16 @@ function randomFraction() {
   // Only change code above this line
 }
 console.log(Math.random());
-//
+//Generate Random Whole Numbers with JavaScript
+function randomWholeNum() {
+
+  // Only change code below this line
+
+  return Math.floor(Math.random() * 10);
+}
+console.log(Math.floor(Math.random() * 10))
+//Generate Random Whole Numbers within a Range
+
 
 
   
