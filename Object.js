@@ -215,6 +215,16 @@ for (let i = 0; i < contacts.length; i++) {
 
 lookUpProfile("Akira", "likes");
 
+//Generate Random Fractions with JavaScript
+function randomFraction() {
+
+  // Only change code below this line
+
+  return Math.random();;
+
+  // Only change code above this line
+}
+console.log(Math.random());
 //
 
 
