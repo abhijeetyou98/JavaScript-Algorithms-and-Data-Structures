@@ -42,7 +42,52 @@ function lookUpProfile(name, prop) {
     
     convertToInteger("56");
 
-    //
+    //Use the parseInt Function with a Radix
+
+    function convertToInteger(str) {
+        return parseInt(str, 2)
+        }
+        
+        convertToInteger("10011");
+//Use the Conditional (Ternary) Operator
+function checkEqual(a, b) {
+    return a===b? "Equal":"Not Equal";
+   }
+   checkEqual(1, 2);
+   
+   //Use Multiple Conditional (Ternary) Operators
+   function checkSign(num) {
+    return (num > 0) ? "positive" 
+     : (num < 0) ? "negative" 
+     : "zero";
+ 
+ }
+ 
+ checkSign(10);
+ //Use Recursion to Create a Countdown
+// Only change code below this line
+function countdown(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const arr = countdown(n - 1);
+    arr.unshift(n);
+    return arr;
+  }
+}
+console.log(countdown(5));
+
+// Only change code above this line
+//Use Recursion to Create a Range of Numbers
+function rangeOfNumbers(startNum, endNum) {
+    if (endNum < startNum) {
+      return [];
+    } else {
+      const numbers = rangeOfNumbers(startNum, endNum - 1);
+      numbers.push(endNum);
+      return numbers;
+    }
+  }
   
   
   
