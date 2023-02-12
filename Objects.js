@@ -69,3 +69,44 @@ console.log(bicycle.gear);
 
 //Use class Syntax to Define a Constructor Function
 
+
+
+//Use getters and setters to Control Access to an Object
+class Thermostat {
+  constructor(fahrenheit) {
+    this._fahrenheit = fahrenheit;
+  }
+  
+  get temperature() {
+    return (5 / 9) * (this._fahrenheit - 32);
+  }
+  
+  set temperature(celsius) {
+    this._fahrenheit = (celsius * 9.0) / 5 + 32;
+  }
+}
+//
+// Explicit constructor
+class SpaceShuttle {
+  constructor(targetPlanet) {
+    this.targetPlanet = targetPlanet;
+  }
+  takeOff() {
+    console.log("To " + this.targetPlanet + "!");
+  }
+}
+
+// Implicit constructor 
+class Rocket {
+  launch() {
+    console.log("To the moon!");
+  }
+}
+
+const zeus = new SpaceShuttle('Jupiter');
+// prints To Jupiter! in console
+zeus.takeOff();
+
+const atlas = new Rocket();
+// prints To the moon! in console
+atlas.launch();
